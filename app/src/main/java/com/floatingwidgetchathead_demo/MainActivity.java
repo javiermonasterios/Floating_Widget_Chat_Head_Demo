@@ -38,6 +38,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void llamarSiguienteTurno(View view) {
+        //Llamar a API Debmedia
+        Toast.makeText(this,
+                getResources().getString(R.string.mensaje_llamado_turno),
+                Toast.LENGTH_SHORT).show();
+    }
+
+    public void finalizarTurno(View view) {
+        //Llamar a API Debmedia
+        Toast.makeText(this,
+                getResources().getString(R.string.mensaje_finalizacion_turno),
+                Toast.LENGTH_SHORT).show();
+    }
+
     /*  Start Floating widget service and finish current activity */
     private void startFloatingWidgetService() {
         startService(new Intent(MainActivity.this, FloatingWidgetService.class));

@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Debmedia</string>
+    <string name="app_name">Panel Ejecutivo - Debmedia</string>
     <string name="llamar_turno">Llamar Turno</string>
     <string name="finalizar_turno">Finalizar Turno</string>
     <string name="create_floating_widget">Ocultar</string>
-    <string name="floating_widget_label">Atendiendo a: Pedro Perez</string>
-    <string name="floating_widget_details">Cliente: Preferencial</string>
+    <string name="floating_widget_label">Floating Widget Label</string>
+    <string name="floating_widget_details">Floating Widget Details</string>
     <string name="draw_other_app_permission_denied">Draw over other app permission not available. App won\'t work without permission. Please try again.</string>
     <string name="mensaje_llamado_turno">Turno llamado exitosamente!</string>
     <string name="mensaje_finalizacion_turno">Turno finalizado exitosamente!</string>
